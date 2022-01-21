@@ -1,19 +1,19 @@
 import java.util.Scanner;
-public class GiaiPhuongTrinhBac2 {
-public static double nhap () {
-double n=0;
-Scanner sc= new Scanner(System.in);
-n=sc.nextDouble();
+public class App{
+    public static double nhap () {
+    double n=0;
+    Scanner sc= new Scanner(System.in);
+    n=sc.nextDouble();
 return n;
 }
 
 public static double bac1 (double a, double b) {
-double da=(-b)/a;
+    double da=(-b)/a;
 return da;
 }
 public static void bac2 (double a, double b, double c) {
-double delta;
-delta=Math.pow(b, 2)-(4*a*c);
+    double delta;
+    delta=Math.pow(b, 2)-(4*a*c);
 //double kq=(-c)/b;
 if (a==0) {
 if (b==0) {
